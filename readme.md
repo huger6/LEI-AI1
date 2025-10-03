@@ -1,23 +1,29 @@
-# AI1 – Internet Applications I (ESTGV 2025/2026)
+# AI1 – Aplicações para a Internet I (ESTGV 2025/2026)
 
-Repository for the course **Internet Applications I (AI1)** at [ESTGV – Escola Superior Tecnologia e Gestão de Viseu]
-Year **2025/2026**.
+Repositório da unidade curricular **Aplicações para a Internet I (AI1)** da  
+[ESTGV – Escola Superior de Tecnologia e Gestão de Viseu]  
+Ano letivo **2025/2026**.
+
+**2ºANO, 1ºSEMESTRE**
 
 ---
 
-## 📂 Contents
+## Nota: Por obter
 
-This repository contains all the material provided by the professor, as well as the proposed solutions for the practical exercises.
+---
 
-### Structure
+## 📂 Conteúdo
 
-- **/Teóricas** – Slides, notes, and others provided by the professor  
-- **/Fichas** – Exercise sheets
+Este repositório contém todo o material disponibilizado pelo professor, bem como as resoluções propostas para os exercícios práticos.
+
+### Estrutura
+
+- **/Teóricas** – Slides, apontamentos e outros materiais fornecidos pelo professor  
+- **/Fichas** – Enunciados das fichas de exercícios  
 
 ---
 
 ## Disclaimer
 
-All materials in this repository, **except the source code and exercise solutions**, were created and provided by the professor of the course.  
-This repository is intended **exclusively for academic and educational purposes**.  
-
+Todo o material presente neste repositório, **exceto o código fonte e as resoluções dos exercícios**, foi criado e fornecido pelo professor da unidade curricular.  
+Este repositório destina-se **exclusivamente a fins académicos e pedagógicos**.  
