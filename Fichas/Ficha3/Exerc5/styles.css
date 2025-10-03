@@ -1,0 +1,19 @@
+html {
+    height: 100%;
+}
+
+.photo {
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 400px;
+}
+
+.logos {
+    max-width: 64px;
+    max-height: 64px;
+}
+
+.links {
+    text-decoration: none;
+    cursor: pointer;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testes de Regex</title>
+</head>
+<body>
+    <h1>Testes de Regex</h1>
+    <form>
+        <h4>Este input deve permite escrever todos os caracteres, mas apenas valida caso sejam letras</h4>
+        <label>Apenas texto</label><br>
+        <input placeholder="Apenas texto" type="text" pattern="[A-Za-z\s]*"><br>
+
+        <h4>Este input deve permitir apenas a introdução de números</h4>
+        <label>Apenas números</label><br>
+        <input placeholder="Apenas números" type="number"><br>
+        
+        <h4>Este input deve ser validado caso sejam introduzidas apenas letras minúsculas</h4>
+        <label>Apenas a-z</label><br>
+        <input placeholder="Apenas Minúsculas" type="text" pattern="[a-z\s]*"><br>
+        
+        <h4>Este input deve ser validado apenas caso sejam inseridas as letras i, p, v. </h4>
+        <label>IPV</label><br>
+        <input placeholder="Apenas IPV" type="text" pattern="[ipvIPV\s]*"><br>
+        
+        <h4>Este input deve permitir tudo exceto as letras i, p, v</h4>
+        <label>~IPV</label><br>
+        <input placeholder="Apenas não IPV" type="text" pattern="[^ipvIPV\s]*"><br>
+        
+        <h4>Este input deve apenas validar strings de 15 caracteres maiúsculos</h4>
+        <label>Sempre 15</label><br>
+        <input placeholder="15 caracteres Maiúsculos" type="text" pattern="[A-Z\s]{15}" minlength="15" maxlength="15"><br>
+        
+        <h4>Este input valida apenas números de telemóvel do formato xxx-xxx-xxx e xxx xxx xxx, com primeiro dígito 9 e segundo (1,2,3 ou 6)</h4>
+        <label>Número telemóvel</label><br>
+        <input placeholder="Telemóvel" type="text" pattern="^9[1236][0-9](-[0-9]{3}-[0-9]{3}| [0-9]{3} [0-9]{3})$"><br>
+        
+        <br>
+        <button type="submit">Enviar</button>
+        <br>
+        <button type="reset">Limpar</button>
+    </form>
+</body>
+</html>

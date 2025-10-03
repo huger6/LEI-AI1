@@ -1,0 +1,17 @@
+html {
+    height: 100%;
+}
+
+.clubs img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.clubs {
+    padding: 3rem;
+}
+
+.players li img {
+    max-width: 48px;
+    max-height: 48px;
+}
