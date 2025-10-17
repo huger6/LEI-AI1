@@ -1,0 +1,91 @@
+table {
+    margin: 30px;
+    border-spacing: 0px;
+    caption-side: bottom;
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+td {
+    padding: 0px;
+    position: relative;
+}
+
+td a {
+    /* position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #000000;
+    gap: 4px; */
+    display: block;
+    position: absolute;
+    inset: 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #000000;
+}
+
+.center {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    white-space: normal;
+}
+
+th {
+    background-color: #5279e5;
+}
+
+tr {
+    height: 25px;
+}
+
+caption {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+ul li {
+    padding: 5px;
+    font-size: 20px;
+}
+
+li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #000000;
+}
+
+.days {
+    background-color: #cababa;
+    width: 120px;
+}
+
+.turno1 {
+    background-color: #51bc5f6f;
+}
+
+.turno2 {
+    background-color: #d5ce47;
+}
+
+.turno3 {
+    background-color: #ffa8ec6c;
+}
+
+.teoricas {
+    background-color: #f3f3f36d;
+}

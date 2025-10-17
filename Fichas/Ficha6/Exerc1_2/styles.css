@@ -1,0 +1,37 @@
+html {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    background-color: #f4f5f4;
+    padding: 20px;
+    border: 1px solid #f69f5b;
+}
+
+ul li {
+    width: 200px;
+    font-family: 'Arial', 'sans-serif';
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+ul li:nth-child(1) {
+    background-color: #a4a9aa;
+}
+
+ul li:nth-child(2) {
+    background-color: #f18a54;
+}
+
+ul li:nth-child(3) {
+    background-color: #c82f1d;
+}
+
+ul li:nth-child(4) {
+    background-color: #252d31;
+}
+
+ul li:nth-child(5) {
+    background-color: #ff5254;
+}
