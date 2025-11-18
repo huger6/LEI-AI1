@@ -1,0 +1,370 @@
+:root {
+    /* Colors */
+    --headerColor: #17a2b8;
+    --headerHoverColor: #1496a1;
+    --headerPageColor: #27b0d3;
+    --accentColor: #09323c;
+    --primaryColor: #3a3a3a;
+    /* Fonts */
+    --titleFont: 'Poppins', 'Inter', 'sans-serif';
+    --textFont: 'Inter', 'sans-serif';
+}
+
+html {
+    width: 100%;
+}
+
+body {
+    background-color: #e9ecef;
+    font-family: var(--textFont);
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--primaryColor);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    font-family: var(--titleFont);
+    color: var(--accentColor);
+}
+
+.separator {
+    border-bottom: 2px solid var(--accentColor);
+    margin: 30px 0px;
+}
+
+/* Header */
+
+header {
+    background-color: var(--headerColor);
+    position: relative;
+    height: 140px;
+    border-bottom: 4px solid var(--accentColor);
+}
+
+.header-info {
+    position: absolute;
+    background-color: var(--headerPageColor);
+    max-width: 1190px;
+    margin: 0px;
+    padding: 5px;
+    height: calc(100% - 10px);
+    width: calc(70vw - 10px);
+    left: 50%;
+    transform: translate(-50%, 0%);
+    font-family: var(--titleFont);
+}
+
+.header-info-text {
+    color: var(--textColor);
+    font-family: var(--titleFont);
+    margin: 0;
+    margin-left: 4rem;
+    color: var(--accentColor);
+}
+
+.header-info-text h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.header-info-text h4 {
+    margin-top: 6px;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    flex-flow: column wrap;
+    justify-content: center;
+    height: auto;
+    left: 20%;
+    z-index: 20;
+    background-color: var(--accentColor);
+    border-radius: 30px;
+    font-family: var(--textFont);
+    font-size: 1.2rem;
+    padding: 5px 0px;
+    top: 122.4px; /* Header height - nav height/2 */
+}
+
+.nav-list {
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.nav-list li {
+    display: inline-block;
+    padding: 0px 8px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: var(--headerPageColor);
+}
+
+/* Main */
+
+main {
+    position: relative;
+    max-width: 1160px;
+    background-color: white;
+    padding: 20px;
+    height: auto;
+    width: calc(70vw - 40px);
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 10;
+}
+
+.main-content {
+    margin-top: 1.5rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+/* About me */
+
+.about-me {
+    position: relative;
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1;
+    gap: 30px;
+}
+
+.about-me-text {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#portrait {
+    margin-right: 1rem;
+}
+
+#portrait img {
+    max-width: 180px;
+    max-height: 180px;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 2px;
+    padding: 10px;
+    border: 4px solid #000000;
+}
+
+/* Contact me */
+
+.contact-form fieldset {
+    border: 1px solid #3c3c3c;
+    padding: 30px;
+    position: relative;
+}
+
+fieldset legend {
+    padding: 0 10px;
+    font-family: var(--titleFont);
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--headerColor);
+}
+
+.form-row {
+    margin-top: 10px;
+}
+
+.form-row label {
+    display: inline-block;
+    width: 120px;
+    font-weight: 500;
+    vertical-align: top;
+    padding-top: 4px;
+}
+
+.form-row input, .form-row textarea {
+    width: calc(100% - 120px - 10px - 10px);
+    box-sizing: border-box;
+    padding: 5px;
+    border: 1px solid #646363;
+    margin-bottom: 10px;
+    font-family: var(--textFont);
+}
+
+.form-row textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+fieldset button {
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: var(--headerColor);
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: none;
+    padding: 6px 15px;
+    float: right;
+    margin-right: 40px;
+}
+
+fieldset button:hover {
+    background-color: var(--headerHoverColor);
+}
+
+/* Links */
+
+.links-list li {
+    margin-top: 8px;
+}
+
+.links-list li a {
+    color: var(--primaryColor);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.links-list li a:visited {
+    color: #565656;
+}
+
+/* Footer */
+
+footer {
+    position: relative;
+    height: 90px;
+    background-color: var(--accentColor);
+}
+
+.footer-center {
+    position: absolute;
+    max-width: 1190px;
+    margin: 0;
+    padding: 10px 4rem;
+    width: calc(70vw - 8rem);
+    left: 50%;
+    transform: translate(-50%, 0%);
+
+    margin-top: 1.5rem;
+}
+
+.footer-center a {
+    text-decoration: none;
+    color: var(--headerPageColor);
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+
+/* Media queries */
+
+@media (max-width: 1000px) {
+    nav {
+        left: 8%;
+    }
+
+    .header-info {
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+    }
+
+    main {
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .footer-center {
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0;
+        padding: 10px 60px;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    #portrait {
+        margin: 10px;
+    }
+}
+
+@media (max-width: 630px) {
+    .about-me {
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+    }
+
+    #portrait {
+        margin: 10px auto;
+    }
+}
+
+@media (max-width: 500px) {
+    nav {
+        left: 1%;
+    }
+    main {
+        padding-top: 99.6px;
+    }
+
+    .main-content {
+        margin: 0;
+    }
+
+    .footer-center {
+        padding: 5px;
+    }
+
+    .form-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-row input, .form-row textarea {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 350px) {
+    main {
+        padding: 4px;
+        padding-top: 99.6px;
+    }
+
+    .header-info-text {
+        margin-left: 1rem;
+    }
+
+    .header-info-text h1 {
+        font-size: 2rem;
+        font-weight: 800;
+    }
+
+    .header-info-text h4 {
+        margin-top: 3px;
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 240px) {
+    nav {
+        top: 144px;
+    }
+}

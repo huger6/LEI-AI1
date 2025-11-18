@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Exercício 7 — Multiplicar / Dividir</title>
+  <style>
+    body {
+      font-family: Georgia, "Times New Roman", Times, serif;
+      padding: 24px;
+      background: #fff;
+      color: #111;
+    }
+    .box {
+      display: inline-block;
+      padding: 14px;
+      border: 1px solid #ccc;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+      background: #fafafa;
+    }
+    label { display: block; margin: 6px 0 2px; }
+    input[type="number"] {
+      width: 260px;
+      padding: 6px 8px;
+      font-size: 14px;
+    }
+    button {
+      margin-top: 8px;
+      margin-right: 6px;
+      padding: 6px 12px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+    .resultado {
+      margin-top: 12px;
+      font-size: 18px;
+    }
+    .erro { color: #b00; font-weight: 600; }
+  </style>
+</head>
+<body>
+  <div class="box" role="form" aria-labelledby="titulo">
+    <h2 id="titulo">Exercício 7</h2>
+
+    <label for="n1">1º Número</label>
+    <input id="n1" type="number" step="any" inputmode="decimal" minlength="1"/>
+
+    <label for="n2">2º Número</label>
+    <input id="n2" type="number" step="any" inputmode="decimal" minlength="1"/>
+
+    <div>
+      <button id="btnMul" type="button">Multiplicar</button>
+      <button id="btnDiv" type="button">Dividir</button>
+    </div>
+
+    <p class="resultado">O Resultado é: <span id="out">—</span></p>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha 7 - Portf&oacute;lio Pessoal</title>
+    <!-- Meta tags -->
+    <meta name="description" content="">
+    <meta name="author" content="huger6">
+    <meta name="robots" content="follow">
+    <meta name="copyright" content="© 2025 huger6">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-info">
+            <div class="header-info-text">
+                <h1>Hugo Afonso</h1>
+                <h4>Homepage</h4>
+            </div>
+        </div>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#">Sobre mim</a></li>
+                <li><a href="#">Contacte-me</a></li>
+                <li><a href="#">Links</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="main-content">
+            <section class="about-me">
+                <div>
+                    <h2 class="content-title">Sobre mim</h2>
+                    <div class="about-me-text" style="margin-top: 10px !important;"><strong>Nome: </strong>Hugo Afonso</div>
+                    <div class="about-me-text"><strong>Idade: </strong>19 anos</div>
+                    <div class="about-me-text"><strong>Atividade: </strong>Estudante</div>
+                    <div class="about-me-text"><strong>Localizaç&atilde;o: </strong>Viseu</div>
+                </div>
+                <div id="portrait"><img src="portrait.png" alt="Hugo Afonso" loading="eager"></div>
+            </section>
+            <div class="separator"></div>
+            <section class="contact-me">
+                <h2 class="content-title">Contacte-me</h2>
+                <form class="contact-form" method="post">
+                    <fieldset>
+                        <legend>A sua mensagem</legend>
+                        <div class="inputs">
+                            <div class="form-row">
+                                <label for="name">Nome:</label>
+                                <input type="text" id="name" name="name" autocomplete="off" autocapitalize="words" maxlength="254" pattern="^[A-Za-zÀ-ÿ]+(?:[ '\-][A-Za-zÀ-ÿ]+)+$">
+                            </div>
+                            <div class="form-row">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" autocomplete="on" minlength="6" maxlength="254">
+                            </div>
+                            <div class="form-row">
+                                <label for="message">Mensagem:</label>
+                                <textarea id="message" name="message" rows="4" minlength="5" maxlength="600"></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" style="margin-top: 10px;">Enviar</button>
+                    </fieldset>
+                </form>
+            </section>
+            <div class="separator"></div>
+            <section>
+                <h2 class="content-title">Links favoritos</h2>
+                <ul class="links-list" style="margin-left: 1.1rem;">
+                    <li>
+                        <a href="https://www.youtube.com/" target="_blank">Youtube</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/huger6" target="_blank">GitHub</a>
+                    </li>
+                    <li>
+                        <a href="https://chatgpt.com/" target="_blank">ChatGPT</a>
+                    </li>
+                    <li>
+                        <a href="https://www.zerozero.pt/" target="_blank">ZeroZero</a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-center">
+            <a href="#">Quem sou</a>
+            <a href="#">Contacte-me</a>
+            <a href="#">Links</a>
+        </div>
+    </footer>
+</body>
+</html>

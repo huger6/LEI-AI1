@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ficha 8.1 — Quiz Desenvolvimento Web</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="page-header">
+    <h1>Quiz: Desenvolvimento Web</h1>
+    <div id="feedback" class="feedback" aria-hidden="true">Resposta correta!</div>
+    <div id="score" class="score">Pontuação: <span id="score-value">0</span></div>
+  </header>
+
+  <main class="container">
+    <section class="question" data-question-index="0" id="q0">
+      <h2 class="q-title">1. O que significa HTML?</h2>
+      <div class="options">
+        <button type="button" class="option" data-correct="false">HighText Machine Language</button>
+        <button type="button" class="option" data-correct="false">Hyperlinks and Text Markup Language</button>
+        <button type="button" class="option" data-correct="true">HyperText Markup Language</button>
+        <button type="button" class="option" data-correct="false">Home Tool Markup Language</button>
+      </div>
+    </section>
+
+    <section class="question" data-question-index="1" id="q1">
+      <h2 class="q-title">2. Qual a função do CSS?</h2>
+      <div class="options">
+        <button type="button" class="option" data-correct="false">Programar lógica do servidor</button>
+        <button type="button" class="option" data-correct="true">Definir estilo e layout de páginas</button>
+        <button type="button" class="option" data-correct="false">Armazenar dados em base de dados</button>
+        <button type="button" class="option" data-correct="false">Enviar emails automaticamente</button>
+      </div>
+    </section>
+
+    <section class="question" data-question-index="2" id="q2">
+      <h2 class="q-title">3. Qual destas linguagens é usualmente interpretada no navegador?</h2>
+      <div class="options">
+        <button type="button" class="option" data-correct="true">JavaScript</button>
+        <button type="button" class="option" data-correct="false">Python</button>
+        <button type="button" class="option" data-correct="false">C++</button>
+        <button type="button" class="option" data-correct="false">Rust</button>
+      </div>
+    </section>
+
+    <section class="question" data-question-index="3" id="q3">
+      <h2 class="q-title">4. O que é um elemento semântico em HTML?</h2>
+      <div class="options">
+        <button type="button" class="option" data-correct="false">Um elemento que só funciona em servers</button>
+        <button type="button" class="option" data-correct="true">Um elemento que descreve o seu significado (p.ex. &lt;header&gt;, &lt;article&gt;)</button>
+        <button type="button" class="option" data-correct="false">Um elemento com CSS inline</button>
+        <button type="button" class="option" data-correct="false">Um elemento que não é visível</button>
+      </div>
+    </section>
+
+    <section class="question" data-question-index="4" id="q4">
+      <h2 class="q-title">5. Qual das seguintes práticas melhora a acessibilidade?</h2>
+      <div class="options">
+        <button type="button" class="option" data-correct="true">Usar texto alternativo em imagens (atributo alt)</button>
+        <button type="button" class="option" data-correct="false">Remover todos os cabeçalhos</button>
+        <button type="button" class="option" data-correct="false">Usar apenas cores para transmitir informação</button>
+        <button type="button" class="option" data-correct="false">Bloquear o zoom no mobile</button>
+      </div>
+    </section>
+
+    <div class="end-controls">
+      <button type="button" id="finish-btn" class="btn" disabled>Terminar Jogo</button>
+      <button type="button" id="restart-btn" class="btn" disabled>Jogar de Novo</button>
+    </div>
+  </main>
+
+  <footer class="page-footer">
+    <p>Ficha 8.1 — Exercício: Quiz (estrutura HTML + estilos)</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
