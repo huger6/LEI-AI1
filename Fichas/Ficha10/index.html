@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha 10 - Cálculos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <input type="number" id="value1">
+        <select id="operation">
+            <option value="add">Somar</option>
+            <option value="sub">Subtrair</option>
+            <option value="mult">Multiplicar</option>
+            <option value="divide">Dividir</option>
+        </select>
+        <input type="number" id="value2">
+        <button id="calculateBtn">Calcular</button>
+        <button id="clearStorageBtn">Limpar Histórico</button>
+    </div>
+
+    <div id="result">
+        <p id="resultText"></p>
+    </div>
+
+    <h3>Histórico de Resultados</h3>
+    <ul id="historyList"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
