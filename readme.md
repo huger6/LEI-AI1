@@ -12,6 +12,10 @@ Ano letivo **2025/2026**.
 
 ---
 
+## Projeto
+
+O projeto final pode ser encontrado em https://github.com/huger6/LEI-AI1-Project.
+
 ## 📂 Conteúdo
 
 Este repositório contém todo o material disponibilizado pelo professor, bem como as resoluções propostas para os exercícios práticos.
@@ -25,5 +29,5 @@ Este repositório contém todo o material disponibilizado pelo professor, bem co
 
 ## Disclaimer
 
-Todo o material presente neste repositório, **exceto o código fonte e as resoluções dos exercícios**, foi criado e fornecido pelo professor da unidade curricular.  
+Todo o material presente neste repositório, **exceto o código fonte e as resoluções dos exercícios**, foi criado e fornecido pelo professor da unidade curricular, pelo que lhe é devido todo o crédito.
 Este repositório destina-se **exclusivamente a fins académicos e pedagógicos**.  
